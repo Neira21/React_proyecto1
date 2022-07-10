@@ -10,6 +10,14 @@ import RenderizadoCondicional from './componentes/RenderizadoCondicional';
 import RenderizadoElementos from './componentes/RenderizadoElementos';
 import { EventosES6 , EventosES7, MasSobreEventos } from './componentes/Eventos';
 import ComunicacionComponentes from './componentes/ComunicacionComponentes';
+//import CicloVida from './componentes/CicloVida';
+import AjaxApis from './componentes/AjaxApis';
+import ContadorHooks from './componentes/ContadorHooks';
+import ScrollHooks from './componentes/ScrollHooks';
+import RelojHooks from './componentes/RelojHooks';
+import AjaxHooks from './componentes/AjaxHooks';
+import HooksPersonalizados from './componentes/HooksPersonalizados';
+import ReferenciasHooks from './componentes/ReferenciasHooks';
 
 function App() {
   //let estaciones = ['Verano', 'Otoño', 'Invierno', 'Primavera'];
@@ -61,6 +69,22 @@ function App() {
           <MasSobreEventos/>
           <hr/>
           <ComunicacionComponentes/>
+          <hr/>
+          {/* <CicloVida/>
+          <hr/> */}
+          <AjaxApis/>
+          <hr/>
+          <ContadorHooks/>
+          <hr/>
+          <ScrollHooks/>
+          <hr/>
+          <RelojHooks/>
+          <hr/>
+          <AjaxHooks/>
+          <hr/>
+          <HooksPersonalizados/>
+          <hr/>
+          <ReferenciasHooks/>
         </section>
            
       </header>
