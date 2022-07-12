@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
 import App2 from './App2';
+import App3Bootstrap from './App3Bootstrap';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 
@@ -10,7 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //<React.StrictMode>
     //<App2 />
-    <App></App>
+    //<App></App>
+    <App3Bootstrap></App3Bootstrap>
   //</React.StrictMode>
 );
 

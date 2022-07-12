@@ -18,6 +18,9 @@ import RelojHooks from './componentes/RelojHooks';
 import AjaxHooks from './componentes/AjaxHooks';
 import HooksPersonalizados from './componentes/HooksPersonalizados';
 import ReferenciasHooks from './componentes/ReferenciasHooks';
+import Formularios from './componentes/Formularios';
+import Estilos from './componentes/Estilos';
+import ComponentesEstelizados from './componentes/ComponentesEstilizados';
 
 function App() {
   //let estaciones = ['Verano', 'Otoño', 'Invierno', 'Primavera'];
@@ -85,6 +88,12 @@ function App() {
           <HooksPersonalizados/>
           <hr/>
           <ReferenciasHooks/>
+          <hr/>
+          <Formularios/>
+          <hr/>
+          <Estilos/>
+          <hr/>
+          <ComponentesEstelizados/>
         </section>
            
       </header>

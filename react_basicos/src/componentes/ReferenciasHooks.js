@@ -29,8 +29,8 @@ export default function ReferenciasHooks(){
           <br />
           <a href="#">Sección 4</a>
           <br />
-          <a href="#">Sección 5</a> */}
-          <a>Hola</a>
+          <a href="#">Sección 5</a>
+          <a>Hola</a> */}
         </nav>
       </>
     );
