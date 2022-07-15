@@ -7,8 +7,9 @@ function App() {
   
   return (
     <>
-      <h2>Ejercicios con React</h2>
+      <h1>Ejercicios con React</h1>
       <CrudApp></CrudApp>
+      <hr/>
     </>
   );
 }

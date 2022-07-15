@@ -3,7 +3,7 @@ import CrudTableRow from './CrudTableRow'
 
 const TableForm = ({data, setDataToEdit, deleteData}) => {
   return (
-    <>
+    <div>
       <h3>Lista de Pokemons</h3>
       <table>
           <thead>
@@ -35,7 +35,7 @@ const TableForm = ({data, setDataToEdit, deleteData}) => {
           </tbody>
           
       </table>
-    </>
+    </div>
   )
 }
 
