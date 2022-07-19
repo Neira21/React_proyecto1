@@ -1,0 +1,39 @@
+{
+  "Pokemons": [
+    {
+      "id": 1,
+      "name": "Pikachu",
+      "type": "Electrico"
+    },
+    {
+      "id": 2,
+      "name": "Squirtle",
+      "type": "Agua"
+    },
+    {
+      "id": 3,
+      "name": "Aron",
+      "type": "Acero"
+    },
+    {
+      "id": 4,
+      "name": "Blaziken",
+      "type": "Fuego/Lucha"
+    },
+    {
+      "id": 5,
+      "name": "Gengar",
+      "type": "Fantasma/Veneno"
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "type": "Fuego"
+    },
+    {
+      "id": 7,
+      "name": "treecko",
+      "type": "planta"
+    }
+  ]
+}

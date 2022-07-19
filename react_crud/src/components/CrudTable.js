@@ -15,22 +15,26 @@ const TableForm = ({data, setDataToEdit, deleteData}) => {
           </thead>
           <tbody>
           
-          {data.length === 0 ? (
-            (
-              <tr>
-                <td colSpan="3">Sin datos</td>
-                {console.log(data)}
-              </tr>
-            )
-            
-            ) :data.map((el) => (
+          {data.length > 0 ? 
+          data.map((el) => (
               <CrudTableRow
                 key={el.id}
                 el={el}
                 setDataToEdit={setDataToEdit}
                 deleteData={deleteData}
               />
-            )) }
+            )
+          )
+          :
+            (
+              (
+                <tr>
+                  <td colSpan="3">Sin datos</td>
+                </tr>
+              )
+              
+            )
+          }
 
           </tbody>
           
