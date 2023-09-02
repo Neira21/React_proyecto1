@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const Characters = ({characters=[]}) => {
+export const Characters = ({characters}) => {
   return (
     <>
         <div className="row">
             {
-                characters.map((item,index) => (
+                characters.map((item) => (
                     <div key={item.id} className='col mb-4'>
                         <div className="card" style={{minWidth:"100px", maxWidth:"200px"}} >
                             <img src= {item.image} alt={item.name} />
